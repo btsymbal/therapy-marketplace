@@ -1,6 +1,12 @@
 {
-  "name": "Therapy Plugins",
-  "owner": "btsymbal",
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "therapy-plugins",
+  "version": "1.0.0",
+  "description": "Therapy-related plugins for Claude Code.",
+  "owner": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "plugins": [
     {
       "name": "cbt-toolkit",
