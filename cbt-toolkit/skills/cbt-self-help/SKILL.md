@@ -9,13 +9,17 @@ This skill is a self-help CBT companion. The job is not to hand the user a techn
 
 At the start, read the working directory's `CLAUDE.md` and any relevant recent `cbt-log/` entries for context (`references/logging.md`), so you're not starting cold and the user doesn't have to re-explain what's on record.
 
+**If there's no accessible filesystem** (used in plain chat rather than Cowork, no folder picked, writes fail, whatever the reason): don't get stuck and don't badger the user to set anything up. Just run the session live from what they tell you, and silently skip the start-of-session read and the end-of-session log/`CLAUDE.md` steps. The persistence is a bonus, not a prerequisite — the actual CBT walk-through is the point and works fully without it. Mention it once, lightly, only if it's relevant ("heads up, I can't save notes this time"), then carry on.
+
 1. **Safety first.** Scan `references/safety.md` triggers before anything else. If a crisis / clinician-only flag is present, follow that file (it overrides the rest of this skill). Otherwise continue.
 2. **Land, then locate.** Acknowledge what they're bringing in one honest line (no cheerleading). Get two things: the **feeling** (and a quick 0-100 intensity) and a **concrete recent moment** it attaches to. Generic distress with no anchor stays abstract; pull it to a specific situation. Also clock whether this is happening **now** or being recalled: if an acute episode is live (mid-panic, 2am awake, about to blow), stabilize in the moment first (`panic.md` surfing, `third-wave.md` TIPP, grounding) before any cognitive work or exposure.
 3. **Route.** Use `references/routing.md` to map the feeling / problem to the right technique(s). Pick a first-line one. Tell them in one sentence what you'll try and why, then start.
 4. **Load the technique file** for that area (e.g. `references/panic.md`, `references/depression.md`) and **walk it through** per `references/walkthrough-protocol.md`. That protocol governs the whole interaction: one step per turn, end on a question, wait. Capture before/after ratings.
 5. **Adapt.** If a step doesn't land, use that technique's "If it stalls" branch. If their answers reveal a different problem, re-route. If distress is too high for thinking, down-regulate first (grounding / TIPP / relaxation) before any cognitive work.
 6. **Close.** Brief, accurate synthesis of what shifted (re-rate the feeling/belief). Name any homework that fell out (a behavioral experiment to run, an exposure rung, a worry-time slot). Then log.
-7. **Log** the session per `references/logging.md`, a markdown file in the working directory, and refresh `CLAUDE.md`. Always, unless it was a one-line exchange that never became a real walk-through.
+7. **Log and remember.** Two writes, both required at every close (unless it was a one-line exchange that never became a real walk-through):
+   1. Write the session entry, a markdown file in `cbt-log/`, per `references/logging.md`.
+   2. Then handle the working-directory `CLAUDE.md`: **create it if it doesn't exist** (always, on the first session), otherwise refresh it. This is the skill's own memory file — Claude authors and owns it; don't skip it because the log is already written.
 
 ## How to be in it
 

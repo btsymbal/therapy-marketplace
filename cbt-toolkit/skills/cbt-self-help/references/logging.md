@@ -19,6 +19,8 @@ This skill runs in Cowork. The user opens a **folder on their computer** (the wo
 
 The user will not tell you where to write or what to do with `CLAUDE.md`. Run it yourself: read the context at the start, log at the end, keep `CLAUDE.md` current. Create `cbt-log/` and `CLAUDE.md` the first time they're needed; never ask the user to set anything up.
 
+**When there's no filesystem at all.** This whole persistence layer assumes a writable working directory. If there isn't one — the skill is used in plain chat, no folder was picked, or writes simply fail — treat all of it as a no-op and move on: skip the start-of-session read, skip the `cbt-log/` write, skip `CLAUDE.md`. Do not stall, retry in a loop, or pressure the user to pick a folder. The session runs fully without persistence; only the cross-session memory is lost. Note it once in passing if relevant, then continue normally.
+
 ## Why log
 
 Every CBT walk-through gets filed so that across many entries the recurring stuff surfaces: which situations keep triggering the user, which distortions keep showing up, which thoughts keep returning, what actually shifts them. One entry is a session; the folder in aggregate is the pattern map. The log is **data, not a diary**, keep it structured and short.
@@ -101,7 +103,9 @@ Never invent thoughts, feelings, distortions, or ratings the user didn't give. M
 
 `CLAUDE.md` at the working-directory root is the skill's persistent memory: the short, distilled context you read at the start and refresh at the close. The session logs are the raw data; `CLAUDE.md` is the summary that makes the next session start warm instead of cold.
 
-If it doesn't exist yet, create it at the end of the first session, filling only what you actually learned (leave the rest as placeholders, never invent). Use this template:
+This is the skill's own file — Claude creates, owns, and maintains it. It is distinct from any global `~/.claude/CLAUDE.md`; the name collision is not a reason to avoid authoring this one. Don't read it as a config or system file you shouldn't touch.
+
+**Creation is unconditional.** If there is no `CLAUDE.md` in the working directory, create it at the end of the session — always, every first session, no judgment call about whether anything was "durable enough." Fill only what you actually learned (leave the rest as placeholders, never invent). The "only if something durable changed" rule below governs *updates to an existing file*, not whether to create it. Use this template:
 
 ```markdown
 # CBT self-help — working notes
@@ -129,8 +133,9 @@ _(Behavioral experiments, exposure rungs, worry-time slots, activities set as
 homework, and whether they were done. Remove items once resolved.)_
 
 ## How this file is maintained
-- After each session, update the sections above if (and only if) something durable
-  changed; otherwise leave it. Day-to-day detail stays in cbt-log/, not here.
+- Create the file on the first session unconditionally (see above). After that,
+  update the sections if (and only if) something durable changed; otherwise leave
+  it. Day-to-day detail stays in cbt-log/, not here.
 - See "Keeping CLAUDE.md sustainable" in references/logging.md for the full rules.
 ```
 
