@@ -1,0 +1,13 @@
+{
+  "name": "Therapy Plugins",
+  "owner": "btsymbal",
+  "plugins": [
+    {
+      "name": "cbt-toolkit",
+      "description": "Cognitive Behavioral Therapy skills and tools for Claude Code.",
+      "source": "./cbt-toolkit",
+      "version": "0.1.0",
+      "author": { "name": "btsymbal", "email": "bod111559@gmail.com" }
+    }
+  ]
+}
