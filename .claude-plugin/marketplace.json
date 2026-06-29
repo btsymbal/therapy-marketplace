@@ -107,6 +107,16 @@
         "name": "btsymbal",
         "email": "bod111559@gmail.com"
       }
+    },
+    {
+      "name": "sfbt-toolkit",
+      "description": "Solution-Focused Brief Therapy skills and tools for Claude Code.",
+      "source": "./sfbt-toolkit",
+      "version": "0.1.0",
+      "author": {
+        "name": "btsymbal",
+        "email": "bod111559@gmail.com"
+      }
     }
   ]
 }

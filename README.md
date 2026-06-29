@@ -16,6 +16,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | `mbct-toolkit` | `/mbct-toolkit:mbct-self-help` | Interactively guides the user through evidence-based MBCT mindfulness practices, one cue at a time, then logs the session. |
 | `narrative-toolkit` | `/narrative-toolkit:narrative-self-help` | Interactively runs Narrative Therapy conversations — externalizing, re-authoring, re-membering — one question at a time, then logs the session. |
 | `schema-toolkit` | `/schema-toolkit:schema-self-help` | Interactively walks the user through Schema Therapy — identifying the lifelong schemas and modes under recurring patterns, then building Healthy-Adult responses — one step at a time, then logs the session. |
+| `sfbt-toolkit` | `/sfbt-toolkit:sfbt-self-help` | Interactively walks the user through Solution-Focused Brief Therapy — best hopes, the miracle question, exceptions, scaling — one step at a time, then logs the session. |
 
 ## Install
 
@@ -33,6 +34,7 @@ In Claude Code:
 /plugin install mbct-toolkit@therapy-plugins
 /plugin install narrative-toolkit@therapy-plugins
 /plugin install schema-toolkit@therapy-plugins
+/plugin install sfbt-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.
