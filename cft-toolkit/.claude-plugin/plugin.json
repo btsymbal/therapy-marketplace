@@ -1,8 +1,12 @@
 {
   "name": "cft-toolkit",
-  "description": "Compassion-Focused Therapy skills and tools for Claude Code.",
+  "displayName": "CFT",
+  "description": "Compassion-Focused Therapy — cultivate self-compassion to soften shame and harsh self-criticism.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"

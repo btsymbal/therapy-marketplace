@@ -1,8 +1,12 @@
 {
   "name": "dbt-toolkit",
-  "description": "Dialectical Behavior Therapy skills and tools for Claude Code.",
+  "displayName": "DBT",
+  "description": "Dialectical Behavior Therapy — build mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"

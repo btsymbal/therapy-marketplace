@@ -1,8 +1,12 @@
 {
   "name": "sfbt-toolkit",
-  "description": "Solution-Focused Brief Therapy skills and tools for Claude Code.",
+  "displayName": "SFBT",
+  "description": "Solution-Focused Brief Therapy — focus on goals, strengths, and what already works rather than problems.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"

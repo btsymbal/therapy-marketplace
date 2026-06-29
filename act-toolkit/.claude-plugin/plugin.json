@@ -1,8 +1,12 @@
 {
   "name": "act-toolkit",
-  "description": "Acceptance and Commitment Therapy skills and tools for Claude Code.",
+  "displayName": "ACT",
+  "description": "Acceptance and Commitment Therapy — accept difficult thoughts and feelings while committing to values-guided action.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"

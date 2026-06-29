@@ -1,8 +1,12 @@
 {
   "name": "ba-toolkit",
-  "description": "Behavioral Activation skills and tools for Claude Code.",
+  "displayName": "BA",
+  "description": "Behavioral Activation — re-engage with meaningful, rewarding activity to counter low mood.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"

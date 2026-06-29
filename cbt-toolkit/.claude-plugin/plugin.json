@@ -1,8 +1,12 @@
 {
   "name": "cbt-toolkit",
-  "description": "Cognitive Behavioral Therapy skills and tools for Claude Code.",
+  "displayName": "CBT",
+  "description": "Cognitive Behavioral Therapy — identify and reframe distorted thoughts to shift feelings and behavior.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"

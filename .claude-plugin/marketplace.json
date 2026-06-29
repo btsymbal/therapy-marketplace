@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "therapy-plugins",
   "version": "1.0.0",
-  "description": "Therapy-related plugins for Claude Code.",
+  "description": "Toolkits spanning major evidence-based and depth psychotherapy modalities.",
   "owner": {
     "name": "btsymbal",
     "email": "bod111559@gmail.com"
@@ -10,7 +10,8 @@
   "plugins": [
     {
       "name": "cbt-toolkit",
-      "description": "Cognitive Behavioral Therapy skills and tools for Claude Code.",
+      "displayName": "CBT",
+      "description": "Cognitive Behavioral Therapy — identify and reframe distorted thoughts to shift feelings and behavior.",
       "source": "./cbt-toolkit",
       "version": "0.1.0",
       "author": {
@@ -20,7 +21,8 @@
     },
     {
       "name": "act-toolkit",
-      "description": "Acceptance and Commitment Therapy skills and tools for Claude Code.",
+      "displayName": "ACT",
+      "description": "Acceptance and Commitment Therapy — accept difficult thoughts and feelings while committing to values-guided action.",
       "source": "./act-toolkit",
       "version": "0.1.0",
       "author": {
@@ -30,7 +32,8 @@
     },
     {
       "name": "active-imagination-toolkit",
-      "description": "Jungian Active Imagination skills and tools for Claude Code.",
+      "displayName": "Active Imagination",
+      "description": "Jungian Active Imagination — engage unconscious images and inner figures to integrate the psyche.",
       "source": "./active-imagination-toolkit",
       "version": "0.1.0",
       "author": {
@@ -40,7 +43,8 @@
     },
     {
       "name": "ba-toolkit",
-      "description": "Behavioral Activation skills and tools for Claude Code.",
+      "displayName": "BA",
+      "description": "Behavioral Activation — re-engage with meaningful, rewarding activity to counter low mood.",
       "source": "./ba-toolkit",
       "version": "0.1.0",
       "author": {
@@ -50,7 +54,8 @@
     },
     {
       "name": "cft-toolkit",
-      "description": "Compassion-Focused Therapy skills and tools for Claude Code.",
+      "displayName": "CFT",
+      "description": "Compassion-Focused Therapy — cultivate self-compassion to soften shame and harsh self-criticism.",
       "source": "./cft-toolkit",
       "version": "0.1.0",
       "author": {
@@ -60,7 +65,8 @@
     },
     {
       "name": "dbt-toolkit",
-      "description": "Dialectical Behavior Therapy skills and tools for Claude Code.",
+      "displayName": "DBT",
+      "description": "Dialectical Behavior Therapy — build mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness.",
       "source": "./dbt-toolkit",
       "version": "0.1.0",
       "author": {
@@ -70,7 +76,8 @@
     },
     {
       "name": "ipt-toolkit",
-      "description": "Interpersonal Psychotherapy (IPT) skills and tools for Claude Code.",
+      "displayName": "IPT",
+      "description": "Interpersonal Psychotherapy — resolve relationship conflict, grief, and role transitions that drive distress.",
       "source": "./ipt-toolkit",
       "version": "0.1.0",
       "author": {
@@ -80,7 +87,8 @@
     },
     {
       "name": "mbct-toolkit",
-      "description": "Mindfulness-Based Cognitive Therapy skills and tools for Claude Code.",
+      "displayName": "MBCT",
+      "description": "Mindfulness-Based Cognitive Therapy — pair mindfulness with cognitive skills to interrupt rumination and relapse.",
       "source": "./mbct-toolkit",
       "version": "0.1.0",
       "author": {
@@ -90,7 +98,8 @@
     },
     {
       "name": "narrative-toolkit",
-      "description": "Narrative Therapy skills and tools for Claude Code.",
+      "displayName": "Narrative Therapy",
+      "description": "Narrative Therapy — separate the person from the problem and re-author the stories that shape identity.",
       "source": "./narrative-toolkit",
       "version": "0.1.0",
       "author": {
@@ -100,7 +109,8 @@
     },
     {
       "name": "schema-toolkit",
-      "description": "Schema Therapy skills and tools for Claude Code.",
+      "displayName": "Schema Therapy",
+      "description": "Schema Therapy — identify and heal early maladaptive schemas and the modes they trigger.",
       "source": "./schema-toolkit",
       "version": "0.1.0",
       "author": {
@@ -110,7 +120,8 @@
     },
     {
       "name": "sfbt-toolkit",
-      "description": "Solution-Focused Brief Therapy skills and tools for Claude Code.",
+      "displayName": "SFBT",
+      "description": "Solution-Focused Brief Therapy — focus on goals, strengths, and what already works rather than problems.",
       "source": "./sfbt-toolkit",
       "version": "0.1.0",
       "author": {

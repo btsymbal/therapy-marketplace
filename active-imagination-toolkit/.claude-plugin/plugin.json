@@ -1,8 +1,12 @@
 {
   "name": "active-imagination-toolkit",
-  "description": "Jungian Active Imagination skills and tools for Claude Code.",
+  "displayName": "Active Imagination",
+  "description": "Jungian Active Imagination — engage unconscious images and inner figures to integrate the psyche.",
   "version": "0.1.0",
-  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "author": {
+    "name": "btsymbal",
+    "email": "bod111559@gmail.com"
+  },
   "homepage": "https://github.com/btsymbal/therapy-marketplace",
   "repository": "https://github.com/btsymbal/therapy-marketplace",
   "license": "MIT"
