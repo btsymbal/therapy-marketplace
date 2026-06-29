@@ -14,6 +14,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | `dbt-toolkit` | `/dbt-toolkit:dbt-self-help` | Interactively walks the user through evidence-based DBT skills (mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness), one step at a time, then logs the session. |
 | `ipt-toolkit` | `/ipt-toolkit:ipt-self-help` | Interactively walks the user through evidence-based IPT techniques for grief, relationship disputes, life transitions, and isolation, one step at a time, then logs the session. |
 | `mbct-toolkit` | `/mbct-toolkit:mbct-self-help` | Interactively guides the user through evidence-based MBCT mindfulness practices, one cue at a time, then logs the session. |
+| `narrative-toolkit` | `/narrative-toolkit:narrative-self-help` | Interactively runs Narrative Therapy conversations — externalizing, re-authoring, re-membering — one question at a time, then logs the session. |
 
 ## Install
 
@@ -29,6 +30,7 @@ In Claude Code:
 /plugin install dbt-toolkit@therapy-plugins
 /plugin install ipt-toolkit@therapy-plugins
 /plugin install mbct-toolkit@therapy-plugins
+/plugin install narrative-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.

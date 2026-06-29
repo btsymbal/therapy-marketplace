@@ -1,0 +1,9 @@
+{
+  "name": "narrative-toolkit",
+  "description": "Narrative Therapy skills and tools for Claude Code.",
+  "version": "0.1.0",
+  "author": { "name": "btsymbal", "email": "bod111559@gmail.com" },
+  "homepage": "https://github.com/btsymbal/therapy-marketplace",
+  "repository": "https://github.com/btsymbal/therapy-marketplace",
+  "license": "MIT"
+}
