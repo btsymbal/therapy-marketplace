@@ -11,6 +11,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | `active-imagination-toolkit` | `/active-imagination-toolkit:active-imagination-self-help` | Interactively guides the user through Jungian active imagination across six modalities, one phase at a time, then records the session. |
 | `ba-toolkit` | `/ba-toolkit:ba-self-help` | Interactively walks the user through Behavioral Activation, one step at a time, then logs the session. |
 | `cft-toolkit` | `/cft-toolkit:cft-self-help` | Interactively guides the user through evidence-based Compassion-Focused Therapy practices for shame and self-criticism, one step at a time, then logs the session. |
+| `dbt-toolkit` | `/dbt-toolkit:dbt-self-help` | Interactively walks the user through evidence-based DBT skills (mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness), one step at a time, then logs the session. |
 
 ## Install
 
@@ -23,6 +24,7 @@ In Claude Code:
 /plugin install active-imagination-toolkit@therapy-plugins
 /plugin install ba-toolkit@therapy-plugins
 /plugin install cft-toolkit@therapy-plugins
+/plugin install dbt-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.
