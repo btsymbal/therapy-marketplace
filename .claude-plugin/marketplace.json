@@ -11,7 +11,7 @@
     {
       "name": "cbt-toolkit",
       "displayName": "CBT",
-      "description": "Cognitive Behavioral Therapy — identify and reframe distorted thoughts to shift feelings and behavior.",
+      "description": "Cognitive Behavioral Therapy: identify and reframe distorted thoughts to shift feelings and behavior.",
       "source": "./cbt-toolkit",
       "version": "0.1.0",
       "author": {
@@ -22,7 +22,7 @@
     {
       "name": "act-toolkit",
       "displayName": "ACT",
-      "description": "Acceptance and Commitment Therapy — accept difficult thoughts and feelings while committing to values-guided action.",
+      "description": "Acceptance and Commitment Therapy: accept difficult thoughts and feelings while committing to values-guided action.",
       "source": "./act-toolkit",
       "version": "0.1.0",
       "author": {
@@ -33,7 +33,7 @@
     {
       "name": "active-imagination-toolkit",
       "displayName": "Active Imagination",
-      "description": "Jungian Active Imagination — engage unconscious images and inner figures to integrate the psyche.",
+      "description": "Jungian Active Imagination: engage unconscious images and inner figures to integrate the psyche.",
       "source": "./active-imagination-toolkit",
       "version": "0.1.0",
       "author": {
@@ -44,7 +44,7 @@
     {
       "name": "ba-toolkit",
       "displayName": "BA",
-      "description": "Behavioral Activation — re-engage with meaningful, rewarding activity to counter low mood.",
+      "description": "Behavioral Activation: re-engage with meaningful, rewarding activity to counter low mood.",
       "source": "./ba-toolkit",
       "version": "0.1.0",
       "author": {
@@ -55,7 +55,7 @@
     {
       "name": "cft-toolkit",
       "displayName": "CFT",
-      "description": "Compassion-Focused Therapy — cultivate self-compassion to soften shame and harsh self-criticism.",
+      "description": "Compassion-Focused Therapy: cultivate self-compassion to soften shame and harsh self-criticism.",
       "source": "./cft-toolkit",
       "version": "0.1.0",
       "author": {
@@ -66,7 +66,7 @@
     {
       "name": "dbt-toolkit",
       "displayName": "DBT",
-      "description": "Dialectical Behavior Therapy — build mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness.",
+      "description": "Dialectical Behavior Therapy: build mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness.",
       "source": "./dbt-toolkit",
       "version": "0.1.0",
       "author": {
@@ -77,7 +77,7 @@
     {
       "name": "ipt-toolkit",
       "displayName": "IPT",
-      "description": "Interpersonal Psychotherapy — resolve relationship conflict, grief, and role transitions that drive distress.",
+      "description": "Interpersonal Psychotherapy: resolve relationship conflict, grief, and role transitions that drive distress.",
       "source": "./ipt-toolkit",
       "version": "0.1.0",
       "author": {
@@ -88,7 +88,7 @@
     {
       "name": "mbct-toolkit",
       "displayName": "MBCT",
-      "description": "Mindfulness-Based Cognitive Therapy — pair mindfulness with cognitive skills to interrupt rumination and relapse.",
+      "description": "Mindfulness-Based Cognitive Therapy: pair mindfulness with cognitive skills to interrupt rumination and relapse.",
       "source": "./mbct-toolkit",
       "version": "0.1.0",
       "author": {
@@ -99,7 +99,7 @@
     {
       "name": "narrative-toolkit",
       "displayName": "Narrative Therapy",
-      "description": "Narrative Therapy — separate the person from the problem and re-author the stories that shape identity.",
+      "description": "Narrative Therapy: separate the person from the problem and re-author the stories that shape identity.",
       "source": "./narrative-toolkit",
       "version": "0.1.0",
       "author": {
@@ -110,7 +110,7 @@
     {
       "name": "schema-toolkit",
       "displayName": "Schema Therapy",
-      "description": "Schema Therapy — identify and heal early maladaptive schemas and the modes they trigger.",
+      "description": "Schema Therapy: identify and heal early maladaptive schemas and the modes they trigger.",
       "source": "./schema-toolkit",
       "version": "0.1.0",
       "author": {
@@ -121,7 +121,7 @@
     {
       "name": "sfbt-toolkit",
       "displayName": "SFBT",
-      "description": "Solution-Focused Brief Therapy — focus on goals, strengths, and what already works rather than problems.",
+      "description": "Solution-Focused Brief Therapy: focus on goals, strengths, and what already works rather than problems.",
       "source": "./sfbt-toolkit",
       "version": "0.1.0",
       "author": {
