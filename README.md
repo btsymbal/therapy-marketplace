@@ -7,6 +7,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | Plugin | Skill | Description |
 | --- | --- | --- |
 | `cbt-toolkit` | `/cbt-toolkit:cbt-self-help` | Interactively walks the user through evidence-based CBT techniques, one step at a time, then logs the session. |
+| `narrative-toolkit` | `/narrative-toolkit:narrative-self-help` | Interactively runs Narrative Therapy conversations — externalizing, re-authoring, re-membering — one question at a time, then logs the session. |
 
 ## Install
 
@@ -31,12 +32,19 @@ with `name` and `description` frontmatter. Any supporting files go in a
 ```
 therapy-marketplace/
 ├── .claude-plugin/
-│   └── marketplace.json          # marketplace catalog
-└── cbt-toolkit/                  # plugin
+│   └── marketplace.json              # marketplace catalog
+├── cbt-toolkit/                      # plugin
+│   ├── .claude-plugin/
+│   │   └── plugin.json               # plugin manifest
+│   └── skills/
+│       └── cbt-self-help/            # one folder per skill
+│           ├── SKILL.md
+│           └── references/           # supporting docs
+└── narrative-toolkit/                # plugin
     ├── .claude-plugin/
-    │   └── plugin.json           # plugin manifest
+    │   └── plugin.json               # plugin manifest
     └── skills/
-        └── cbt-self-help/        # one folder per skill
+        └── narrative-self-help/      # one folder per skill
             ├── SKILL.md
-            └── references/       # supporting docs
+            └── references/           # supporting docs
 ```
