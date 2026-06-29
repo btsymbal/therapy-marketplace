@@ -14,6 +14,13 @@
       "source": "./cbt-toolkit",
       "version": "0.1.0",
       "author": { "name": "btsymbal", "email": "bod111559@gmail.com" }
+    },
+    {
+      "name": "dbt-toolkit",
+      "description": "Dialectical Behavior Therapy skills and tools for Claude Code.",
+      "source": "./dbt-toolkit",
+      "version": "0.1.0",
+      "author": { "name": "btsymbal", "email": "bod111559@gmail.com" }
     }
   ]
 }
