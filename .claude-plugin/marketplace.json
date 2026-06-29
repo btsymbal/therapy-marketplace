@@ -27,6 +27,16 @@
         "name": "btsymbal",
         "email": "bod111559@gmail.com"
       }
+    },
+    {
+      "name": "active-imagination-toolkit",
+      "description": "Jungian Active Imagination skills and tools for Claude Code.",
+      "source": "./active-imagination-toolkit",
+      "version": "0.1.0",
+      "author": {
+        "name": "btsymbal",
+        "email": "bod111559@gmail.com"
+      }
     }
   ]
 }
