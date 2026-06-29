@@ -7,6 +7,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | Plugin | Skill | Description |
 | --- | --- | --- |
 | `cbt-toolkit` | `/cbt-toolkit:cbt-self-help` | Interactively walks the user through evidence-based CBT techniques, one step at a time, then logs the session. |
+| `ba-toolkit` | `/ba-toolkit:ba-self-help` | Interactively walks the user through Behavioral Activation, one step at a time, then logs the session. |
 
 ## Install
 
@@ -15,6 +16,7 @@ In Claude Code:
 ```
 /plugin marketplace add btsymbal/therapy-marketplace
 /plugin install cbt-toolkit@therapy-plugins
+/plugin install ba-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.
@@ -32,11 +34,18 @@ with `name` and `description` frontmatter. Any supporting files go in a
 therapy-marketplace/
 ├── .claude-plugin/
 │   └── marketplace.json          # marketplace catalog
-└── cbt-toolkit/                  # plugin
+├── cbt-toolkit/                  # plugin
+│   ├── .claude-plugin/
+│   │   └── plugin.json           # plugin manifest
+│   └── skills/
+│       └── cbt-self-help/        # one folder per skill
+│           ├── SKILL.md
+│           └── references/       # supporting docs
+└── ba-toolkit/                   # plugin
     ├── .claude-plugin/
     │   └── plugin.json           # plugin manifest
     └── skills/
-        └── cbt-self-help/        # one folder per skill
+        └── ba-self-help/         # one folder per skill
             ├── SKILL.md
             └── references/       # supporting docs
 ```
