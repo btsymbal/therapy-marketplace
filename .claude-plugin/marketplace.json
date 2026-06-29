@@ -37,6 +37,16 @@
         "name": "btsymbal",
         "email": "bod111559@gmail.com"
       }
+    },
+    {
+      "name": "ba-toolkit",
+      "description": "Behavioral Activation skills and tools for Claude Code.",
+      "source": "./ba-toolkit",
+      "version": "0.1.0",
+      "author": {
+        "name": "btsymbal",
+        "email": "bod111559@gmail.com"
+      }
     }
   ]
 }

@@ -9,6 +9,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | `cbt-toolkit` | `/cbt-toolkit:cbt-self-help` | Interactively walks the user through evidence-based CBT techniques, one step at a time, then logs the session. |
 | `act-toolkit` | `/act-toolkit:act-self-help` | Interactively walks the user through evidence-based ACT (Acceptance and Commitment Therapy) techniques, one step at a time, then logs the session. |
 | `active-imagination-toolkit` | `/active-imagination-toolkit:active-imagination-self-help` | Interactively guides the user through Jungian active imagination across six modalities, one phase at a time, then records the session. |
+| `ba-toolkit` | `/ba-toolkit:ba-self-help` | Interactively walks the user through Behavioral Activation, one step at a time, then logs the session. |
 
 ## Install
 
@@ -19,6 +20,7 @@ In Claude Code:
 /plugin install cbt-toolkit@therapy-plugins
 /plugin install act-toolkit@therapy-plugins
 /plugin install active-imagination-toolkit@therapy-plugins
+/plugin install ba-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.
