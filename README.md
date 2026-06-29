@@ -7,6 +7,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | Plugin | Skill | Description |
 | --- | --- | --- |
 | `cbt-toolkit` | `/cbt-toolkit:cbt-self-help` | Interactively walks the user through evidence-based CBT techniques, one step at a time, then logs the session. |
+| `active-imagination-toolkit` | `/active-imagination-toolkit:active-imagination-self-help` | Interactively guides the user through Jungian active imagination across six modalities, one phase at a time, then records the session. |
 
 ## Install
 
@@ -15,6 +16,7 @@ In Claude Code:
 ```
 /plugin marketplace add btsymbal/therapy-marketplace
 /plugin install cbt-toolkit@therapy-plugins
+/plugin install active-imagination-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.
