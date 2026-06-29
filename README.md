@@ -7,6 +7,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | Plugin | Skill | Description |
 | --- | --- | --- |
 | `cbt-toolkit` | `/cbt-toolkit:cbt-self-help` | Interactively walks the user through evidence-based CBT techniques, one step at a time, then logs the session. |
+| `sfbt-toolkit` | `/sfbt-toolkit:sfbt-self-help` | Interactively walks the user through Solution-Focused Brief Therapy — best hopes, the miracle question, exceptions, scaling — one step at a time, then logs the session. |
 
 ## Install
 
@@ -15,6 +16,7 @@ In Claude Code:
 ```
 /plugin marketplace add btsymbal/therapy-marketplace
 /plugin install cbt-toolkit@therapy-plugins
+/plugin install sfbt-toolkit@therapy-plugins
 ```
 
 Then run `/plugin` to browse and manage installed plugins.
