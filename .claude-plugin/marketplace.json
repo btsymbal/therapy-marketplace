@@ -97,6 +97,16 @@
         "name": "btsymbal",
         "email": "bod111559@gmail.com"
       }
+    },
+    {
+      "name": "schema-toolkit",
+      "description": "Schema Therapy skills and tools for Claude Code.",
+      "source": "./schema-toolkit",
+      "version": "0.1.0",
+      "author": {
+        "name": "btsymbal",
+        "email": "bod111559@gmail.com"
+      }
     }
   ]
 }
