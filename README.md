@@ -7,6 +7,7 @@ A Claude Code plugin marketplace for therapy-related plugins.
 | Plugin | Skill | Description |
 | --- | --- | --- |
 | `cbt-toolkit` | `/cbt-toolkit:cbt-self-help` | Interactively walks the user through evidence-based CBT techniques, one step at a time, then logs the session. |
+| `mbct-toolkit` | `/mbct-toolkit:mbct-self-help` | Interactively guides the user through evidence-based MBCT mindfulness practices, one cue at a time, then logs the session. |
 
 ## Install
 
