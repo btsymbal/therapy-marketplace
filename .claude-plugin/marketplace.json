@@ -67,6 +67,16 @@
         "name": "btsymbal",
         "email": "bod111559@gmail.com"
       }
+    },
+    {
+      "name": "ipt-toolkit",
+      "description": "Interpersonal Psychotherapy (IPT) skills and tools for Claude Code.",
+      "source": "./ipt-toolkit",
+      "version": "0.1.0",
+      "author": {
+        "name": "btsymbal",
+        "email": "bod111559@gmail.com"
+      }
     }
   ]
 }
